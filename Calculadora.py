@@ -1,5 +1,5 @@
 # Calculadora em Python
-OPRC = int(input('''*********CALCULADORA EM PYTHON*********
+operacao = int(input('''*********CALCULADORA EM PYTHON*********
 
 
 Selecione o número correspondente à operação desejada:
@@ -13,29 +13,29 @@ Selecione o número correspondente à operação desejada:
 Digite sua opção(1/2/3/4):'''))
 
 #Soma
-if OPRC == 1:
+if operacao == 1:
     RESULT = lambda x,y : x + y
     x = int(input('Digite seu primeiro número:'))
     y = int(input('Digite seu segundo número:'))
     print(RESULT(x,y))
 
 #Subtração    
-elif OPRC == 2:
+elif operacao == 2:
     RESULT = lambda x,y : x - y
     x = int(input('Digite seu primeiro número:'))
     y = int(input('Digite seu segundo número:'))
     print(RESULT(x,y))
 
 #Multiplicação    
-elif OPRC == 3:
+elif operacao == 3:
     RESULT = lambda x,y : x * y
     x = int(input('Digite seu primeiro número:'))
     y = int(input('Digite seu segundo número:'))
     print(RESULT(x,y))
 
 #Divisão    
-elif OPRC == 4:
-    RESULT = lambda x,y : x % y
+elif operacao == 4:
+    RESULT = lambda x,y : x / y
     x = int(input('Digite seu primeiro número:'))
     y = int(input('Digite seu segundo número:'))
     print(RESULT(x,y))
