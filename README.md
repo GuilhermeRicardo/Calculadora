@@ -11,4 +11,4 @@
  - Multiplicação
  - Divisão
 
-##### Priorizadas funções Lambda e para fundamentação do aprendizado de estruturas if, elif e else.
+##### Priorizadas funções Lambda para fundamentação do aprendizado de estruturas if, elif e else.
